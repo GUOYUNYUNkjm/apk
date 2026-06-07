@@ -1,0 +1,16 @@
+{
+  "name": "skinai-app",
+  "version": "1.0.0",
+  "description": "SkinAI 皮肤病变智能监测系统 - 安卓打包工程",
+  "scripts": {
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "build:apk": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0"
+  }
+}

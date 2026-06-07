@@ -1,0 +1,8 @@
+{
+  "appId": "com.skinai.app",
+  "appName": "SkinAI",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true
+  }
+}
